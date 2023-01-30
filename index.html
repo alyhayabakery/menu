@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CSS-Only Photo Info Popup</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://gabriellew.ee/static/css/fonts/faune.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main ontouchstart>
+  <section class='photo-grid'>
+    <ul class='grid-isotope'>
+      <li class='photo-grid-item'>
+        <figure>
+          <picture>
+            <source media='(max-width: 3000px)' srcset='imge/imge  (7).jpg'>
+            <img alt='' src='imge/imge  (7).jpg'>
+          </picture>
+          <figcaption>
+            <fieldset>
+              <input id='2021-03-02-home' type='checkbox'>
+              <label class='photo-close' for='2021-03-02-home'></label>
+              <label class='photo-link' for='2021-03-02-home'>
+                <svg class='icon' viewBox='0 0 100 100'>
+                  <circle cx='49' cy='49' r='36'></circle>
+                  <path d='M45,69 L55,69 M45,39 L50,39 L50,69 M49.5,29 L50,29'></path>
+                </svg>
+              </label>
+              <dl>
+                <label for='2021-03-02-home'>
+                  <svg class='icon' viewBox='0 0 100 100'>
+                    <polyline points='14 32 50 68 86 32'></polyline>
+                  </svg>
+                </label>
+                <div dir="rtl">
+                  <dt>Date</dt>
+                  <dd>02 March 2021</dd>
+                </div>
+                <div>
+                  <dt>Location</dt>
+                  <dd>San Francisco, CA</dd>
+                </div>
+                <div>
+                  <dt>Camera</dt>
+                  <dd>iPhone 12 Pro Max</dd>
+                </div>
+                <div>
+                  <dt>Editor</dt>
+                  <dd>VSCO</dd>
+                </div>
+                <a class='photo-link' href='imge/imge  (7).jpg' tabindex='-1' target='_blank'>
+                  <svg class='icon' viewBox='0 0 100 100'>
+                    <path d='M82,38 L82,78.9930191 C82,80.6537288 80.663269,82 78.9989882,82 L21.0010118,82 C19.3435988,82 18,80.663269 18,78.9989882 L18,21.0010118 C18,19.3435988 19.3408574,18 21.0069809,18 L62,18 M88.9559283,10.8111066 L57.9878833,42.132705 M69.2453268,10.8994949 L89.0443166,10.8994949 L89.0443166,30.6984848'></path>
+                  </svg>
+                </a>
+              </dl>
+            </fieldset>
+          </figcaption>
+        </figure>
+      </li>
+      <li class='photo-grid-item'>
+        <figure>
+          <picture>
+            <source media='(max-width: 3000px)' srcset='imge/imge  (8).jpg'>
+            <img alt='' src='imge/imge  (8).jpg'>
+          </picture>
+          <figcaption>
+            <fieldset>
+              <input id='2021-03-01-agate-beach' type='checkbox'>
+              <label class='photo-close' for='2021-03-01-agate-beach'></label>
+              <label class='photo-link' for='2021-03-01-agate-beach'>
+                <svg class='icon' viewBox='0 0 100 100'>
+                  <circle cx='49' cy='49' r='36'></circle>
+                  <path d='M45,69 L55,69 M45,39 L50,39 L50,69 M49.5,29 L50,29'></path>
+                </svg>
+              </label>
+              <dl>
+                <label for='2021-03-01-agate-beach'>
+                  <svg class='icon' viewBox='0 0 100 100'>
+                    <polyline points='14 32 50 68 86 32'></polyline>
+                  </svg>
+                </label>
+                <div>
+                  <dt>Date</dt>
+                  <dd>01 March 2021</dd>
+                </div>
+                <div>
+                  <dt>Location</dt>
+                  <dd>Patrick’s Point State Park, Trinidad, CA</dd>
+                </div>
+                <div>
+                  <dt>Camera</dt>
+                  <dd>iPhone 12 Pro Max</dd>
+                </div>
+                <div>
+                  <dt>Editor</dt>
+                  <dd>VSCO</dd>
+                </div>
+                <a class='photo-link' href='imge/imge  (8).jpg' tabindex='-1' target='_blank'>
+                  <svg class='icon' viewBox='0 0 100 100'>
+                    <path d='M82,38 L82,78.9930191 C82,80.6537288 80.663269,82 78.9989882,82 L21.0010118,82 C19.3435988,82 18,80.663269 18,78.9989882 L18,21.0010118 C18,19.3435988 19.3408574,18 21.0069809,18 L62,18 M88.9559283,10.8111066 L57.9878833,42.132705 M69.2453268,10.8994949 L89.0443166,10.8994949 L89.0443166,30.6984848'></path>
+                  </svg>
+                </a>
+              </dl>
+            </fieldset>
+          </figcaption>
+        </figure>
+      </li>
+      <li class='photo-grid-item'>
+        <figure>
+          <picture>
+            <source media='(max-width: 3000px)' srcset=''>
+            <img alt='' src='imge/imge  (9).jpg'>
+          </picture>
+          <figcaption>
+            <fieldset>
+              <input id='2021-02-28-sunset' type='checkbox'>
+              <label class='photo-close' for='2021-02-28-sunset'></label>
+              <label class='photo-link' for='2021-02-28-sunset'>
+                <svg class='icon' viewBox='0 0 100 100'>
+                  <circle cx='49' cy='49' r='36'></circle>
+                  <path d='M45,69 L55,69 M45,39 L50,39 L50,69 M49.5,29 L50,29'></path>
+                </svg>
+              </label>
+              <dl>
+                <label for='2021-02-28-sunset'>
+                  <svg class='icon' viewBox='0 0 100 100'>
+                    <polyline points='14 32 50 68 86 32'></polyline>
+                  </svg>
+                </label>
+                <div>
+                  <dt>Date</dt>
+                  <dd>28 February 2021</dd>
+                </div>
+                <div>
+                  <dt>Location</dt>
+                  <dd>Crescent Harbor, Crescent City, CA</dd>
+                </div>
+                <div>
+                  <dt>Camera</dt>
+                  <dd>iPhone 12 Pro Max</dd>
+                </div>
+                <div>
+                  <dt>Editor</dt>
+                  <dd>VSCO</dd>
+                </div>
+                <a class='photo-link' href='imge/imge  (9).jpg' tabindex='-1' target='_blank'>
+                  <svg class='icon' viewBox='0 0 100 100'>
+                    <path d='M82,38 L82,78.9930191 C82,80.6537288 80.663269,82 78.9989882,82 L21.0010118,82 C19.3435988,82 18,80.663269 18,78.9989882 L18,21.0010118 C18,19.3435988 19.3408574,18 21.0069809,18 L62,18 M88.9559283,10.8111066 L57.9878833,42.132705 M69.2453268,10.8994949 L89.0443166,10.8994949 L89.0443166,30.6984848'></path>
+                  </svg>
+                </a>
+              </dl>
+            </fieldset>
+          </figcaption>
+        </figure>
+      </li>
+      <li class='photo-grid-item'>
+        <figure>
+          <picture>
+            <source media='imge/imge  (10).jpg'>
+            <img alt='' src='imge/imge  (10).jpg'>
+          </picture>
+          <figcaption>
+            <fieldset>
+              <input id='2021-02-27-sunset' type='checkbox'>
+              <label class='photo-close' for='2021-02-27-sunset'></label>
+              <label class='photo-link' for='2021-02-27-sunset'>
+                <svg class='icon' viewBox='0 0 100 100'>
+                  <circle cx='49' cy='49' r='36'></circle>
+                  <path d='M45,69 L55,69 M45,39 L50,39 L50,69 M49.5,29 L50,29'></path>
+                </svg>
+              </label>
+              <dl>
+                <label for='2021-02-27-sunset'>
+                  <svg class='icon' viewBox='0 0 100 100'>
+                    <polyline points='14 32 50 68 86 32'></polyline>
+                  </svg>
+                </label>
+                <div>
+                  <dt>Date</dt>
+                  <dd>27 February 2021</dd>
+                </div>
+                <div>
+                  <dt>Location</dt>
+                  <dd>Waldport, OR</dd>
+                </div>
+                <div>
+                  <dt>Camera</dt>
+                  <dd>iPhone 12 Pro Max</dd>
+                </div>
+                <div>
+                  <dt>Editor</dt>
+                  <dd>VSCO</dd>
+                </div>
+                <a class='photo-link' href='imge/imge  (10).jpg' tabindex='-1' target='_blank'>
+                  <svg class='icon' viewBox='0 0 100 100'>
+                    <path d='M82,38 L82,78.9930191 C82,80.6537288 80.663269,82 78.9989882,82 L21.0010118,82 C19.3435988,82 18,80.663269 18,78.9989882 L18,21.0010118 C18,19.3435988 19.3408574,18 21.0069809,18 L62,18 M88.9559283,10.8111066 L57.9878833,42.132705 M69.2453268,10.8994949 L89.0443166,10.8994949 L89.0443166,30.6984848'></path>
+                  </svg>
+                </a>
+              </dl>
+            </fieldset>
+          </figcaption>
+        </figure>
+      </li>
+      <li class='photo-grid-item'>
+        <figure>
+          <picture>
+            <source media='(max-width: 3000px)' srcset='imge/imge  (11).jpg'>
+            <img alt='' src='imge/imge  (11).jpg'>
+          </picture>
+          <figcaption>
+            <fieldset>
+              <input id='2021-02-26-sunset' type='checkbox'>
+              <label class='photo-close' for='2021-02-26-sunset'></label>
+              <label class='photo-link' for='2021-02-26-sunset'>
+                <svg class='icon' viewBox='0 0 100 100'>
+                  <circle cx='49' cy='49' r='36'></circle>
+                  <path d='M45,69 L55,69 M45,39 L50,39 L50,69 M49.5,29 L50,29'></path>
+                </svg>
+              </label>
+              <dl>
+                <label for='2021-02-26-sunset'>
+                  <svg class='icon' viewBox='0 0 100 100'>
+                    <polyline points='14 32 50 68 86 32'></polyline>
+                  </svg>
+                </label>
+                <div>
+                  <dt>Date</dt>
+                  <dd>26 February 2021</dd>
+                </div>
+                <div>
+                  <dt>Location</dt>
+                  <dd>Waldport, OR</dd>
+                </div>
+                <div>
+                  <dt>Camera</dt>
+                  <dd>iPhone 12 Pro Max</dd>
+                </div>
+                <div>
+                  <dt>Editor</dt>
+                  <dd>VSCO</dd>
+                </div>
+                <a class='photo-link' href='imge/imge  (12).jpg' tabindex='-1' target='_blank'>
+                  <svg class='icon' viewBox='0 0 100 100'>
+                    <path d='M82,38 L82,78.9930191 C82,80.6537288 80.663269,82 78.9989882,82 L21.0010118,82 C19.3435988,82 18,80.663269 18,78.9989882 L18,21.0010118 C18,19.3435988 19.3408574,18 21.0069809,18 L62,18 M88.9559283,10.8111066 L57.9878833,42.132705 M69.2453268,10.8994949 L89.0443166,10.8994949 L89.0443166,30.6984848'></path>
+                  </svg>
+                </a>
+              </dl>
+            </fieldset>
+          </figcaption>
+        </figure>
+      </li>
+      <li class='photo-grid-item'>
+        <figure>
+          <picture>
+            <source media='(max-width: 3000px)' srcset='imge/imge  (12).jpg'>
+            <img alt='' src='imge/imge  (12).jpg'>
+          </picture>
+          <figcaption>
+            <fieldset>
+              <input id='2021-02-26-snow-2' type='checkbox'>
+              <label class='photo-close' for='2021-02-26-snow-2'></label>
+              <label class='photo-link' for='2021-02-26-snow-2'>
+                <svg class='icon' viewBox='0 0 100 100'>
+                  <circle cx='49' cy='49' r='36'></circle>
+                  <path d='M45,69 L55,69 M45,39 L50,39 L50,69 M49.5,29 L50,29'></path>
+                </svg>
+              </label>
+              <dl>
+                <label for='2021-02-26-snow-2'>
+                  <svg class='icon' viewBox='0 0 100 100'>
+                    <polyline points='14 32 50 68 86 32'></polyline>
+                  </svg>
+                </label>
+                <div dir="rtl">
+                  <dt>Date</dt>
+                  <dd>26 February 2021</dd>
+                </div>
+                <div>
+                  <dt>Location</dt>
+                  <dd>Willamette National Forest, OR</dd>
+                </div>
+                <div>
+                  <dt>Camera</dt>
+                  <dd>iPhone 12 Pro Max</dd>
+                </div>
+                <div>
+                  <dt>Editor</dt>
+                  <dd>VSCO</dd>
+                </div>
+                <a class='photo-link' href='imge/imge  (12).jpg' tabindex='-1' target='_blank'>
+                  <svg class='icon' viewBox='0 0 100 100'>
+                    <path d='M82,38 L82,78.9930191 C82,80.6537288 80.663269,82 78.9989882,82 L21.0010118,82 C19.3435988,82 18,80.663269 18,78.9989882 L18,21.0010118 C18,19.3435988 19.3408574,18 21.0069809,18 L62,18 M88.9559283,10.8111066 L57.9878833,42.132705 M69.2453268,10.8994949 L89.0443166,10.8994949 L89.0443166,30.6984848'></path>
+                  </svg>
+                </a>
+              </dl>
+            </fieldset>
+          </figcaption>
+        </figure>
+      </li>
+      <li class='photo-grid-item'>
+        <figure>
+          <picture>
+            <source media='(max-width: 3000px)' srcset='imge/imge  (13).jpg'>
+            <img alt='' src='imge/imge  (13).jpg'>
+          </picture>
+          <figcaption>
+            <fieldset>
+              <input id='2021-02-26-rainforest' type='checkbox'>
+              <label class='photo-close' for='2021-02-26-rainforest'></label>
+              <label class='photo-link' for='2021-02-26-rainforest'>
+                <svg class='icon' viewBox='0 0 100 100'>
+                  <circle cx='49' cy='49' r='36'></circle>
+                  <path d='M45,69 L55,69 M45,39 L50,39 L50,69 M49.5,29 L50,29'></path>
+                </svg>
+              </label>
+              <dl>
+                <label for='2021-02-26-rainforest'>
+                  <svg class='icon' viewBox='0 0 100 100'>
+                    <polyline points='14 32 50 68 86 32'></polyline>
+                  </svg>
+                </label>
+                <div>
+                  <dt>Date</dt>
+                  <dd>26 February 2021</dd>
+                </div>
+                <div>
+                  <dt>Location</dt>
+                  <dd>Cascadia, OR</dd>
+                </div>
+                <div>
+                  <dt>Camera</dt>
+                  <dd>iPhone 12 Pro Max</dd>
+                </div>
+                <div>
+                  <dt>Editor</dt>
+                  <dd>VSCO</dd>
+                </div>
+                <a class='photo-link' href='imge/imge  (13).jpg' tabindex='-1' target='_blank'>
+                  <svg class='icon' viewBox='0 0 100 100'>
+                    <path d='M82,38 L82,78.9930191 C82,80.6537288 80.663269,82 78.9989882,82 L21.0010118,82 C19.3435988,82 18,80.663269 18,78.9989882 L18,21.0010118 C18,19.3435988 19.3408574,18 21.0069809,18 L62,18 M88.9559283,10.8111066 L57.9878833,42.132705 M69.2453268,10.8994949 L89.0443166,10.8994949 L89.0443166,30.6984848'></path>
+                  </svg>
+                </a>
+              </dl>
+            </fieldset>
+          </figcaption>
+        </figure>
+      </li>
+      <li class='photo-grid-item'>
+        <figure>
+          <picture>
+            <source media='(max-width: 3000px)' srcset='imge/imge  (14).jpg'>
+            <img alt='' src='imge/imge  (14).jpg'>
+          </picture>
+          <figcaption>
+            <fieldset>
+              <input id='2021-02-11-chinatown' type='checkbox'>
+              <label class='photo-close' for='2021-02-11-chinatown'></label>
+              <label class='photo-link' for='2021-02-11-chinatown'>
+                <svg class='icon' viewBox='0 0 100 100'>
+                  <circle cx='49' cy='49' r='36'></circle>
+                  <path d='M45,69 L55,69 M45,39 L50,39 L50,69 M49.5,29 L50,29'></path>
+                </svg>
+              </label>
+              <dl>
+                <label for='2021-02-11-chinatown'>
+                  <svg class='icon' viewBox='0 0 100 100'>
+                    <polyline points='14 32 50 68 86 32'></polyline>
+                  </svg>
+                </label>
+                <div>
+                  <dt>Date</dt>
+                  <dd>11 February 2021</dd>
+                </div>
+                <div>
+                  <dt>Location</dt>
+                  <dd>Chinatown, San Francisco, CA</dd>
+                </div>
+                <div>
+                  <dt>Camera</dt>
+                  <dd>iPhone 12 Pro Max</dd>
+                </div>
+                <div>
+                  <dt>Editor</dt>
+                  <dd>VSCO</dd>
+                </div>
+                <a class='photo-link' href='imge/imge  (14).jpg' tabindex='-1' target='_blank'>
+                  <svg class='icon' viewBox='0 0 100 100'>
+                    <path d='M82,38 L82,78.9930191 C82,80.6537288 80.663269,82 78.9989882,82 L21.0010118,82 C19.3435988,82 18,80.663269 18,78.9989882 L18,21.0010118 C18,19.3435988 19.3408574,18 21.0069809,18 L62,18 M88.9559283,10.8111066 L57.9878833,42.132705 M69.2453268,10.8994949 L89.0443166,10.8994949 L89.0443166,30.6984848'></path>
+                  </svg>
+                </a>
+              </dl>
+            </fieldset>
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
+  </section>
+</main>
+<!-- partial -->
+  
+</body>
+</html>
